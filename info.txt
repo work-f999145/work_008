@@ -1,0 +1,63 @@
+<div class="p-dsk-srch-retailer__card i-block-helper b-srch-card b-srch-card_view_preview b-srch-card_retailer-icon_true b-srch-card_with-date_false b-srch-card_with-toggle_false b-srch-card_with-title_true b-srch-card_size_xl b-srch-card_with-like_false b-srch-card_liked_false b-srch-card_expand_false b-srch-card_type_meta-offer" data-analytics-id="38" data-analytics-marker="b-srch-card" data-analytics-path="discountCard" data-test-ref="b-srch-card">
+ <a aria-label='Открыть страницу товара "Печенье Любятово Шоколадное Воздушное 200г"' class="b-srch-card__card-wrapper" href="/lipeck/metaoffers/34f56672-b47a-56ca-833c-3f96b2fe8468">
+  <div class="b-srch-card__container uid-18c1b80a99-41 b-srch-card__container">
+   <!-- -->
+   <div class="b-srch-card__image-container">
+    <img class="b-srch-card__main-img" loading="lazy" src="https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/e/6/7aynqbufmc2/z/s/zpoiev4zbwxqdiidi5blaxjy"/>
+    <div class="i-block-helper uid-c488ba39b6-41 b-content-renderer b-content-renderer_direction_column b-content-renderer_space_xl b-srch-card__discount-label">
+     <div class="b-content-renderer__element uid-c488ba39b6-41">
+      <div class="i-block-helper uid-c488ba39b6-41 b-tpl-discount-label b-tpl-discount-label_direction_column b-tpl-discount-label_space_xl">
+       <div class="b-tpl-discount-label__label b-tpl-discount-label__label_exterior_shelf b-tpl-discount-label__label_size_l">
+        –30%
+       </div>
+      </div>
+      <!-- -->
+     </div>
+    </div>
+   </div>
+   <div class="b-srch-card__content-container">
+    <div class="b-srch-card__time i-block-helper b-srch-offer-time b-srch-offer-time_no-bg_false b-srch-offer-time_size_m" view="false">
+     <time class="b-srch-offer-time__date uid-f7329f333e-41 b-srch-offer-time__date b-srch-offer-time__date_feature_false b-srch-card__date" datetime="2023-09-05">
+      По 5 сент.
+     </time>
+    </div>
+    <div class="b-srch-card__price">
+     <div class="b-srch-card__price-new i-block-helper b-money b-money_line-through_false b-money_size_1350 b-money_highlight-value_false b-money_currency-position_after">
+      <div class="b-money__root-wrapper">
+       <span class="uid-6f3f5db1d4-35 b-money__baseunit b-money__baseunit_positive-value_true" data-test-ref="money-base">
+        79
+       </span>
+       <span class="uid-6f3f5db1d4-35 b-money__comma b-money__comma_positive-value_true">
+        ,
+       </span>
+       <span class="uid-6f3f5db1d4-35 b-money__subunit b-money__subunit_positive-value_true" data-test-ref="money-subunit">
+        99
+       </span>
+       <span class="b-money__currency" data-test-ref="currency">
+        ₽
+       </span>
+       <div class="b-money__line">
+       </div>
+      </div>
+     </div>
+     <!-- -->
+     <!-- -->
+    </div>
+    <div class="b-srch-card__title uid-18c1b80a99-41 b-srch-card__title b-srch-card__title_cutted_false">
+     Печенье Любятово Шоколадное Воздушное 200г
+    </div>
+    <div class="b-srch-card__info">
+     <span>
+      200 г • 399,95 ₽/кг
+     </span>
+    </div>
+    <!-- -->
+    <!-- -->
+    <!-- -->
+    <!-- -->
+   </div>
+   <!-- -->
+  </div>
+  <!-- -->
+ </a>
+</div>
