@@ -35,10 +35,11 @@ while True:
     data = occupied_memory()
 
     # Вывести информацию с использованием символа возврата каретки
-    print(f"\rChrome: {data:5,.0f} MB", end='', flush=True)
+    print(f"\rChrome: {data:6,.0f} MB", end='', flush=True)
+    # print(f"\rChrome: {data:6,.0f} MB", flush=True)
 
-    # Добавить символ перезаписи строки для очистки оставшихся символов
-    print("\033[K", end='', flush=True)
+    # # Добавить символ перезаписи строки для очистки оставшихся символов
+    # print("\033[K", end='', flush=True)
 
     # Задержка, чтобы обновление было заметно
     time.sleep(1)
