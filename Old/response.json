@@ -1,0 +1,4314 @@
+{
+    "features": {
+        "adultContent": false,
+        "adultSkipped": false
+    },
+    "total": 39,
+    "entities": {
+        "brands": [
+            {
+                "uuid": "36dacced-c1c6-5bc7-9d15-25413604c32f",
+                "name": "Sen Soy",
+                "count": 4
+            },
+            {
+                "uuid": "50fc25df-5a23-5c4e-a38d-1e502802b6a9",
+                "name": "Aroy-D",
+                "count": 3
+            },
+            {
+                "uuid": "8bcf815b-c4a7-530b-bc0b-0c7e86cc6fbc",
+                "name": "Kuhne",
+                "count": 3
+            },
+            {
+                "uuid": "4c7d3681-198a-576b-9eb5-66aad8732105",
+                "name": "Philosophia de Natura",
+                "count": 3
+            },
+            {
+                "uuid": "a2d2f10e-db42-58f8-91fd-4cbf558d21fb",
+                "name": "Casa Kubana",
+                "count": 2
+            },
+            {
+                "uuid": "ec35c434-20e0-5288-a279-a5fcbd8f692f",
+                "name": "Heinz",
+                "count": 2
+            },
+            {
+                "uuid": "b6b2abe6-e34e-5703-9b59-5f130e8802d9",
+                "name": "Pearl River Bridge",
+                "count": 2
+            },
+            {
+                "uuid": "81aeb4b9-6e6e-55d6-802a-2834b231e24c",
+                "name": "Uni dan",
+                "count": 2
+            },
+            {
+                "uuid": "2fccd806-0499-545f-a9b4-1091d2656f67",
+                "name": "Кинто",
+                "count": 2
+            },
+            {
+                "uuid": "23648307-b3c5-5c8f-a897-678a34a96fda",
+                "name": "Маркет",
+                "count": 2
+            },
+            {
+                "uuid": "330d4693-cad6-5c01-a445-809a975c625c",
+                "name": "Astoria",
+                "count": 1
+            },
+            {
+                "uuid": "2247963b-f785-5cf0-89d9-3002e7bc7000",
+                "name": "Cholimex",
+                "count": 1
+            },
+            {
+                "uuid": "e7036882-b843-5545-9397-30cc5a8eea2d",
+                "name": "Costa Caliente",
+                "count": 1
+            },
+            {
+                "uuid": "86005f79-a773-5005-b532-bce1ca7a49d9",
+                "name": "Filippo Berio",
+                "count": 1
+            },
+            {
+                "uuid": "0c2a1e12-439f-5042-9636-d4acf8333634",
+                "name": "Market Collection",
+                "count": 1
+            },
+            {
+                "uuid": "3ead0c1d-0fe5-515e-99a9-cf0e1b69dc87",
+                "name": "Mivimex",
+                "count": 1
+            },
+            {
+                "uuid": "fe16f1de-4873-50b8-8200-deff87b0fca7",
+                "name": "Monari Federzoni",
+                "count": 1
+            },
+            {
+                "uuid": "a34f42df-bf71-5207-9a53-9ed3899afe72",
+                "name": "San bonsai",
+                "count": 1
+            },
+            {
+                "uuid": "2b4aebf2-d4d5-53dc-b315-663822478c75",
+                "name": "TRUFFLE",
+                "count": 1
+            },
+            {
+                "uuid": "616dfd83-59e6-5c36-9153-f50987d060d1",
+                "name": "Амца",
+                "count": 1
+            },
+            {
+                "uuid": "0f29bd72-ce55-53e3-ac3a-58e68097660b",
+                "name": "Богатство вкуса",
+                "count": 1
+            },
+            {
+                "uuid": "7116a9b1-5759-531a-a3c5-ec1e9a69c863",
+                "name": "Махеевъ",
+                "count": 1
+            },
+            {
+                "uuid": "b8590871-e6ef-5edb-9cc7-8ca3c7bbefac",
+                "name": "Пиканта",
+                "count": 1
+            },
+            {
+                "uuid": "6240f6af-60e6-5ff8-9b58-249fa1fa9b4d",
+                "name": "Стебель бамбука",
+                "count": 1
+            }
+        ],
+        "retailers": [
+            {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "slug": "perekrestok",
+                "name": "Перекрёсток",
+                "online": false,
+                "count": 39
+            }
+        ],
+        "tabSegments": [
+            {
+                "uuid": "3b31ce28-6311-11e6-849f-52540010b608",
+                "slug": "sauces",
+                "level": 3,
+                "name": "Соусы",
+                "count": 39,
+                "parentUuid": "3b31cb57-6311-11e6-849f-52540010b608"
+            }
+        ],
+        "segments": [
+            {
+                "count": 39,
+                "uuid": "3b31ab10-6311-11e6-849f-52540010b608",
+                "slug": "food",
+                "level": 1,
+                "name": "Продукты"
+            },
+            {
+                "count": 39,
+                "uuid": "3b31cb57-6311-11e6-849f-52540010b608",
+                "slug": "mayonnaise-and-sauces",
+                "level": 2,
+                "name": "Майонез и соусы",
+                "parentUuid": "3b31ab10-6311-11e6-849f-52540010b608"
+            },
+            {
+                "count": 39,
+                "uuid": "3b31ce28-6311-11e6-849f-52540010b608",
+                "slug": "sauces",
+                "level": 3,
+                "name": "Соусы",
+                "parentUuid": "3b31cb57-6311-11e6-849f-52540010b608"
+            }
+        ],
+        "offerTypes": [
+            {
+                "slug": "offline",
+                "count": 39
+            }
+        ]
+    },
+    "facet": {
+        "title": "Соусы, Перекрёсток",
+        "shortDescription": "Соусы, Перекрёсток",
+        "descriptionData": {
+            "retailers": {
+                "key": "Магазины",
+                "value": [
+                    "Перекрёсток"
+                ]
+            },
+            "segments": {
+                "key": "Категория",
+                "value": [
+                    "Соусы"
+                ]
+            }
+        },
+        "recordId": "cf64d6c2-2d68-515b-9665-e8bd84c18432",
+        "request": "{\"exclude_filters\": {}, \"filters\": {\"s_retailer_uuid\": [\"94d98417-42c3-11e6-9419-52540010b608\"], \"s_segment_uuid\": [\"3b31ce28-6311-11e6-849f-52540010b608\"]}, \"saved_stores\": \"false\", \"text\": \"\"}",
+        "images": {
+            "retailers": [
+                "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png"
+            ]
+        }
+    },
+    "items": [
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "82c9c6b4-8f6a-53b9-860a-46589ae00731",
+            "metaUuid": "a91b9733-11ce-5f62-983d-a94b54f127bd",
+            "dateStart": 1693440000000,
+            "title": "Coyc SEN SOY Чили сладкий для курицы, 1,15 кг",
+            "normalizedName": "coyc sen soy чили сладкий для курицы 1.15кг",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "70ac6032-4b2e-4b83-85e6-8cf6e40ab9c1"
+                ],
+                "metaUuids": [
+                    "a91b9733-11ce-5f62-983d-a94b54f127bd"
+                ]
+            },
+            "brandUuid": "36dacced-c1c6-5bc7-9d15-25413604c32f",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/2/r/c2xrvxb2voflqszrk6cw5klm",
+            "rating": 5.0,
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "70ac6032-4b2e-4b83-85e6-8cf6e40ab9c1"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–33%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 33,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 34999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 51999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 1150.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "1150&nbsp;г&nbsp;• 304,34&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "be62a1e2-f353-5309-8e40-da58081bc046",
+            "metaUuid": "818f62ca-ef56-5cf3-bfbe-018248906b81",
+            "dateStart": 1693440000000,
+            "title": "Coyc SEN SOY Sriracha Чили, 310 г",
+            "normalizedName": "coyc sen soy sriracha чили 310г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "cfad2587-76f0-40ed-858a-8690dc392a60"
+                ],
+                "metaUuids": [
+                    "818f62ca-ef56-5cf3-bfbe-018248906b81"
+                ]
+            },
+            "brandUuid": "36dacced-c1c6-5bc7-9d15-25413604c32f",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/l/j/rfcra4x4uddhlzcvqtb3he64",
+            "rating": 4.5,
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "cfad2587-76f0-40ed-858a-8690dc392a60"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–39%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 39,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 15999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 25999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 310.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "310&nbsp;г&nbsp;• 516,10&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "dadfb007-ad5d-5342-a040-4abdcec55a29",
+            "metaUuid": "1d02dab0-d81f-5ad9-b0e3-6da7ee7ccccd",
+            "dateStart": 1693440000000,
+            "title": "Соус БОГАТСТВО ВКУСА Аджика Домашняя острая; Ткемали зелёный кисло-сладкий; красный остро-сладкий, 200-310 г",
+            "normalizedName": "соус богатство вкуса аджика домашняя острая ткемали зеленый кисло сладкий красный остро сладкий 200 310г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "48a3c111-0a97-47ac-928d-3fad67468275"
+                ],
+                "metaUuids": [
+                    "1d02dab0-d81f-5ad9-b0e3-6da7ee7ccccd"
+                ]
+            },
+            "brandUuid": "0f29bd72-ce55-53e3-ac3a-58e68097660b",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/r/5/qcrqxj5fk66ws6qpxzxradse",
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "48a3c111-0a97-47ac-928d-3fad67468275"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–37%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 37,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 13999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 21999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": null,
+            "quantityUnit": null,
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            }
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "db04c8ad-47ba-5274-b9f1-78ff8aae065b",
+            "metaUuid": "4fb0d2f3-8594-5acb-ac1d-badd54e3538a",
+            "dateStart": 1693440000000,
+            "title": "Coyc HEINZ соевый классический, 635 мл",
+            "normalizedName": "coyc heinz соевый классический 635мл",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "3b12b5b3-10ff-4c3d-80ca-3e3f0ba630b1"
+                ],
+                "metaUuids": [
+                    "4fb0d2f3-8594-5acb-ac1d-badd54e3538a"
+                ]
+            },
+            "brandUuid": "ec35c434-20e0-5288-a279-a5fcbd8f692f",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/k/n/worp2vwgd6kqhjgztnkgazeu",
+            "rating": 4.0,
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "3b12b5b3-10ff-4c3d-80ca-3e3f0ba630b1"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–28%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 28,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 31999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 43999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 635.0,
+            "quantityUnit": "мл",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "635&nbsp;мл&nbsp;• 503,92&nbsp;₽/л"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "34d5abc1-f351-54bf-9557-0db139de3166",
+            "metaUuid": "94789baa-6b04-54ed-919d-9327ea3e23e3",
+            "dateStart": 1693440000000,
+            "title": "Соус соевый SEN SOY Терияки, 1 л",
+            "normalizedName": "соус соевый sen soy терияки 1л",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "92712f05-86b1-479a-afec-706ba8e3fd2e",
+                    "bd3aaba7-b66b-4bd0-a15f-f0b4ed1ad061"
+                ],
+                "metaUuids": [
+                    "94789baa-6b04-54ed-919d-9327ea3e23e3"
+                ]
+            },
+            "brandUuid": "36dacced-c1c6-5bc7-9d15-25413604c32f",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/u/3/u2664tmg7jygoyx53nqc4obq",
+            "rating": 4.5,
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "92712f05-86b1-479a-afec-706ba8e3fd2e",
+                "bd3aaba7-b66b-4bd0-a15f-f0b4ed1ad061"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–27%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 27,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 21999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 29999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 1.0,
+            "quantityUnit": "л",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "1&nbsp;л&nbsp;• 219,99&nbsp;₽/л"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "660c4c79-2b16-5912-ad7e-f31bb0f2da4e",
+            "metaUuid": "ee7057bd-c26f-5552-9ad2-00582a350691",
+            "dateStart": 1693440000000,
+            "title": "Coyc CHOLIMEX Шрирача чили острый, 520 г",
+            "normalizedName": "coyc cholimex шрирача чили острый 520г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "715b73ae-ef05-4923-bbd4-1b106df5dd5d"
+                ],
+                "metaUuids": [
+                    "ee7057bd-c26f-5552-9ad2-00582a350691"
+                ]
+            },
+            "brandUuid": "2247963b-f785-5cf0-89d9-3002e7bc7000",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/t/w/kbuaqlgz7ee4pqicf3fvidva",
+            "rating": 4.5,
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "715b73ae-ef05-4923-bbd4-1b106df5dd5d"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–21%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 21,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 23999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 29999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 520.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "520&nbsp;г&nbsp;• 461,52&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "22e57aee-8d0d-579f-963e-270dfc1d4832",
+            "metaUuid": "5f40ff7e-eeda-5421-8dd6-a728a7bf0e5a",
+            "dateStart": 1695081600000,
+            "title": "Соус МАХЕЕВЪ в ассортименте, 200-230 г",
+            "normalizedName": "соус махеевъ в ассортименте 200 230г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "0395fb33-e93f-419b-beb5-e06d789d7c90",
+                    "4a7d67e6-62a5-4a55-8683-829cdb607547",
+                    "5d1a5aae-ff74-4bf6-9d0d-65c1b0b045ed",
+                    "8ea7c6df-a0c5-4087-a8ab-e0bce403ea03",
+                    "e1df8ef1-7917-482d-a64e-5bf165441dd4",
+                    "e85d5b1e-9db5-4ae1-b101-39c9927f2512",
+                    "f1fed20c-1b82-4a9a-9a1e-a7c815361baa"
+                ],
+                "metaUuids": [
+                    "5f40ff7e-eeda-5421-8dd6-a728a7bf0e5a"
+                ]
+            },
+            "brandUuid": "7116a9b1-5759-531a-a3c5-ec1e9a69c863",
+            "dateEnd": 1695600000000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/p/6/ompq2mlunm673qoqx5rzzszy",
+            "rating": 5.0,
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "0395fb33-e93f-419b-beb5-e06d789d7c90",
+                "4a7d67e6-62a5-4a55-8683-829cdb607547",
+                "5d1a5aae-ff74-4bf6-9d0d-65c1b0b045ed",
+                "8ea7c6df-a0c5-4087-a8ab-e0bce403ea03",
+                "e1df8ef1-7917-482d-a64e-5bf165441dd4",
+                "e85d5b1e-9db5-4ae1-b101-39c9927f2512",
+                "f1fed20c-1b82-4a9a-9a1e-a7c815361baa"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–21%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 21,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 6999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 8799
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 1.0,
+            "quantityUnit": "шт",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "1&nbsp;шт&nbsp;• 69,99&nbsp;₽/шт"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "3236b753-c922-5ce8-82ed-f13d714cfb3e",
+            "metaUuid": "b7ff2108-e851-5967-8a5b-de799f997929",
+            "dateStart": 1693440000000,
+            "title": "Coyc KUHNE Салатный с йогуртом; Тысяча островов; Тартар, 250 мл; 253 г",
+            "normalizedName": "coyc kuhne салатный с йогуртом тысяча островов тартар 250мл 253г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "metaUuids": [
+                    "b7ff2108-e851-5967-8a5b-de799f997929"
+                ]
+            },
+            "brandUuid": "8bcf815b-c4a7-530b-bc0b-0c7e86cc6fbc",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/u/c/dtqgcgh6glv4xkkg2ks4xxg4",
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–20%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 20,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 20999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 26199
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": null,
+            "quantityUnit": null,
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            }
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "f01171a5-12c2-5783-be8c-a294518664a6",
+            "metaUuid": "a1fb0039-b3bb-506b-a19d-23dde0b6f4bb",
+            "dateStart": 1695081600000,
+            "title": "Соус КИНТО в ассортименте, 300-310 г",
+            "normalizedName": "соус кинто в ассортименте 300 310г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "13bee572-66fe-4a45-8488-bfcaad632f8c",
+                    "15129bf3-a5e9-4809-9c89-3c299f7881d4",
+                    "237539c5-a54e-4af7-b34d-f7ff58f4ad09",
+                    "4093f83e-a949-4356-933f-f15506fc8084",
+                    "410d5784-1006-4caa-a550-0ba685999b63",
+                    "4a0c4094-22f4-4e61-8c4b-bbaa66a5923c",
+                    "4c25f63e-9381-445d-b06c-ff469b4f55dc",
+                    "5eb4a5aa-bcf5-4f7d-8f07-5eb317b8abb3",
+                    "655769ea-9ecf-45e2-ac6e-a2dae01bf35a",
+                    "8f1d794e-a2e2-4ac0-adf8-1ff1d9d90f39",
+                    "94b8a838-58ff-475a-9dbc-d78e644dcd66",
+                    "95b18ec3-a67c-445c-b493-f45834965bc8",
+                    "a0f2388a-4869-4d91-a6d2-821930b2a7e4",
+                    "b4c3d3df-c767-43bd-8955-4bf8984f98d6",
+                    "ced146ac-8ed6-4dbb-9d55-5d23669a97f6",
+                    "ee9d99aa-912c-471c-a0d3-102769d26e89"
+                ],
+                "metaUuids": [
+                    "a1fb0039-b3bb-506b-a19d-23dde0b6f4bb"
+                ]
+            },
+            "brandUuid": "2fccd806-0499-545f-a9b4-1091d2656f67",
+            "dateEnd": 1695600000000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/x/7/c2vfb5irecssmx4ea2kr6aqa",
+            "rating": 4.5,
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "13bee572-66fe-4a45-8488-bfcaad632f8c",
+                "15129bf3-a5e9-4809-9c89-3c299f7881d4",
+                "237539c5-a54e-4af7-b34d-f7ff58f4ad09",
+                "4093f83e-a949-4356-933f-f15506fc8084",
+                "410d5784-1006-4caa-a550-0ba685999b63",
+                "4a0c4094-22f4-4e61-8c4b-bbaa66a5923c",
+                "4c25f63e-9381-445d-b06c-ff469b4f55dc",
+                "5eb4a5aa-bcf5-4f7d-8f07-5eb317b8abb3",
+                "655769ea-9ecf-45e2-ac6e-a2dae01bf35a",
+                "8f1d794e-a2e2-4ac0-adf8-1ff1d9d90f39",
+                "94b8a838-58ff-475a-9dbc-d78e644dcd66",
+                "95b18ec3-a67c-445c-b493-f45834965bc8",
+                "a0f2388a-4869-4d91-a6d2-821930b2a7e4",
+                "b4c3d3df-c767-43bd-8955-4bf8984f98d6",
+                "ced146ac-8ed6-4dbb-9d55-5d23669a97f6",
+                "ee9d99aa-912c-471c-a0d3-102769d26e89"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–29%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 29,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 9999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 13999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 305.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "305&nbsp;г&nbsp;• 327,84&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "b1bc855e-6694-5b0d-b3f1-60994bb6f232",
+            "metaUuid": "9cb59ac2-c93b-5e27-bb16-0e06f761287d",
+            "dateStart": 1695081600000,
+            "title": "Соус-песто MARKET COLLECTION томатный; Alla Genovese creamy с базиликом, 180-190 г",
+            "normalizedName": "соус песто market collection томатный alla genovese creamy с базиликом 180 190г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "50730799-9793-4d84-a829-545b73925c5c",
+                    "695b9117-537f-41c0-8d55-79ff4411ff01"
+                ],
+                "metaUuids": [
+                    "9cb59ac2-c93b-5e27-bb16-0e06f761287d"
+                ]
+            },
+            "brandUuid": "0c2a1e12-439f-5042-9636-d4acf8333634",
+            "dateEnd": 1695600000000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/w/y/dnxkff6rktjxcdh2syay6t7i",
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "50730799-9793-4d84-a829-545b73925c5c",
+                "695b9117-537f-41c0-8d55-79ff4411ff01"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–19%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 19,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 21999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 26999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 190.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "190&nbsp;г&nbsp;• 1157,84&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "6e0a9880-e030-5642-b56f-79c17358aeda",
+            "metaUuid": "322e4d75-9db8-542f-918f-508f35d21371",
+            "dateStart": 1695081600000,
+            "title": "Соус МАРКЕТ Чили острый; Чили сладкий; Терияки соевый, 300 г",
+            "normalizedName": "соус маркет чили острый чили сладкий терияки соевый 300г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "0f622ac5-ead1-4652-bc7f-5ca43ee57b9a",
+                    "dd970d81-f41b-4efd-aad7-d9f12b959957"
+                ],
+                "metaUuids": [
+                    "322e4d75-9db8-542f-918f-508f35d21371"
+                ]
+            },
+            "brandUuid": "23648307-b3c5-5c8f-a897-678a34a96fda",
+            "dateEnd": 1695600000000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/d/x/2lwoheo6z7ho227yh35uq3v4",
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "0f622ac5-ead1-4652-bc7f-5ca43ee57b9a",
+                "dd970d81-f41b-4efd-aad7-d9f12b959957"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–19%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 19,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 8999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 10999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 300.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "300&nbsp;г&nbsp;• 299,97&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "fb241927-5187-52e0-af36-d8997d784918",
+            "metaUuid": "7f18871d-8f7e-5314-9e5b-139748ee1c0f",
+            "dateStart": 1695081600000,
+            "title": "Соус соевый HEINZ классический, 150 мл",
+            "normalizedName": "соус соевый heinz классический 150мл",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "5ed09b57-2a35-47ff-a9b1-f775054128b0",
+                    "c11113ed-a0d1-441d-933b-32fa260132be"
+                ],
+                "metaUuids": [
+                    "7f18871d-8f7e-5314-9e5b-139748ee1c0f"
+                ]
+            },
+            "brandUuid": "ec35c434-20e0-5288-a279-a5fcbd8f692f",
+            "dateEnd": 1695600000000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/y/3/rozsyu2b5krl3plvs44sprju",
+            "rating": 4.5,
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "5ed09b57-2a35-47ff-a9b1-f775054128b0",
+                "c11113ed-a0d1-441d-933b-32fa260132be"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–24%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 24,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 22999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 29999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 150.0,
+            "quantityUnit": "мл",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "150&nbsp;мл&nbsp;• 1533,27&nbsp;₽/л"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "efaf46bc-2c63-5d10-8951-3001bed5f8e7",
+            "metaUuid": "5d48ae73-e908-5022-b0e8-65b2f54e71a5",
+            "dateStart": 1693440000000,
+            "title": "Соус перечный КИНТО Халапеньо зелёный, 190 г",
+            "normalizedName": "соус перечный кинто халапеньо зеленый 190г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "metaUuids": [
+                    "5d48ae73-e908-5022-b0e8-65b2f54e71a5"
+                ]
+            },
+            "brandUuid": "2fccd806-0499-545f-a9b4-1091d2656f67",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/g/n/m5wf47qw2uyj7dqsxvpq3amq",
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–34%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 34,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 15999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 23999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 190.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "190&nbsp;г&nbsp;• 842,05&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "aa5b5acd-9b18-57f9-8038-cf03afccc99c",
+            "metaUuid": "4f0d5713-df08-55ea-88f0-900b1076e151",
+            "dateStart": 1693440000000,
+            "title": "Coyc PEARL RIVER BRIDGE Устричный, 510 г",
+            "normalizedName": "coyc pearl river bridge устричный 510г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "metaUuids": [
+                    "4f0d5713-df08-55ea-88f0-900b1076e151"
+                ]
+            },
+            "brandUuid": "b6b2abe6-e34e-5703-9b59-5f130e8802d9",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/c/o/d2lf57id3f3iclgqnvf45cfy",
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–32%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 32,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 19999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 28999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 510.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "510&nbsp;г&nbsp;• 392,14&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "63f99c80-5814-562f-bfa7-8f7ba27df4d9",
+            "metaUuid": "236e9919-f34a-5e14-931e-cfabee9a9b7d",
+            "dateStart": 1693440000000,
+            "title": "Coyc PHILOSOPHIA DE NATURA Сальса мексиканский, 150 г",
+            "normalizedName": "coyc philosophia de natura сальса мексиканский 150г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "6d0a4323-6c92-4c24-96a9-95abf53ada58"
+                ],
+                "metaUuids": [
+                    "236e9919-f34a-5e14-931e-cfabee9a9b7d"
+                ]
+            },
+            "brandUuid": "4c7d3681-198a-576b-9eb5-66aad8732105",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/e/c/d65boir6cv3m7px6dzyzknv4",
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "6d0a4323-6c92-4c24-96a9-95abf53ada58"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–28%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 28,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 15999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 21999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 150.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "150&nbsp;г&nbsp;• 1066,60&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "e1d4fbf4-0434-5656-af7c-2e90afb93d28",
+            "metaUuid": "7e18ba5b-e6ed-5c2c-9aed-2e272fd7cbb9",
+            "dateStart": 1693440000000,
+            "title": "Coyc FILIPPO BERIO Бальзамический классический; Black truffle бальзамический с чёрным трюфелем, 250 мл",
+            "normalizedName": "coyc filippo berio бальзамический классический black truffle бальзамический с черным трюфелем 250мл",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "02b828b2-a1e5-4b16-b42a-ecc27b9c60bc"
+                ],
+                "metaUuids": [
+                    "7e18ba5b-e6ed-5c2c-9aed-2e272fd7cbb9"
+                ]
+            },
+            "brandUuid": "2b4aebf2-d4d5-53dc-b315-663822478c75",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/g/i/243fsftmaclflfkoyhvlkjle",
+            "rating": 5.0,
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "02b828b2-a1e5-4b16-b42a-ecc27b9c60bc"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–29%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 29,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 39999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 55900
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 250.0,
+            "quantityUnit": "мл",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "250&nbsp;мл&nbsp;• 1599,96&nbsp;₽/л"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "e1ebd30e-bf72-5fab-826c-d05fa87c5d28",
+            "metaUuid": "ec5ff8e5-b9ce-5f69-910f-f17d583b89f5",
+            "dateStart": 1693440000000,
+            "title": "Coyc AROY-D Сладкий Чили для курицы, 350 г",
+            "normalizedName": "coyc aroy d сладкий чили для курицы 350г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "metaUuids": [
+                    "ec5ff8e5-b9ce-5f69-910f-f17d583b89f5"
+                ]
+            },
+            "brandUuid": "50fc25df-5a23-5c4e-a38d-1e502802b6a9",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/f/5/ulec6bp5kivwirf66ndstvjy",
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–23%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 23,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 16999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 21999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 350.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "350&nbsp;г&nbsp;• 485,69&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "40d001b9-3207-5f2b-bff7-60b468bb1055",
+            "metaUuid": "8e8e15bc-b64f-53c3-a1c5-079ec118c8ea",
+            "dateStart": 1693440000000,
+            "title": "Coyc PHILOSOPHIA DE NATURA Гуакамоле; Сырный с халапеньо, 150 г",
+            "normalizedName": "coyc philosophia de natura гуакамоле сырный с халапеньо 150г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "7654afac-97a5-4378-9e32-4f7abd75754c"
+                ],
+                "metaUuids": [
+                    "8e8e15bc-b64f-53c3-a1c5-079ec118c8ea"
+                ]
+            },
+            "brandUuid": "4c7d3681-198a-576b-9eb5-66aad8732105",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/4/x/h7mvfmdsoo6q5ldyrg75xiry",
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "7654afac-97a5-4378-9e32-4f7abd75754c"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–31%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 31,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 17999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 25999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 150.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "150&nbsp;г&nbsp;• 1199,93&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "8140e5c5-74d1-56a2-a912-bc14e7df81da",
+            "metaUuid": "75f47ca5-967a-5d0e-8f3d-e541f6594578",
+            "dateStart": 1693440000000,
+            "title": "Coyc ASTORIA сырный майонезный 42%, 384 г",
+            "normalizedName": "coyc astoria сырный майонезный 42% 384г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "4d64b4d4-6352-42e7-a1ce-75ef028f2677"
+                ],
+                "metaUuids": [
+                    "75f47ca5-967a-5d0e-8f3d-e541f6594578"
+                ]
+            },
+            "brandUuid": "330d4693-cad6-5c01-a445-809a975c625c",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/g/7/tzmjnxzz3qfpvzvdbp654dzi",
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "4d64b4d4-6352-42e7-a1ce-75ef028f2677"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–29%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 29,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 9999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 13999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 384.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "384&nbsp;г&nbsp;• 260,39&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "f4665ece-a04a-580d-9347-1beb14d09d7b",
+            "metaUuid": "810096fd-cdbc-5a03-bf40-ed8cce1bb14d",
+            "dateStart": 1693440000000,
+            "title": "Coyc PHILOSOPHIA DE NATURA в ассортименте, 230 г",
+            "normalizedName": "coyc philosophia de natura в ассортименте 230г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "c80f9649-6330-4895-984c-37d8eafca559",
+                    "d3bcf441-2384-499b-8874-f70e29782f44",
+                    "e3fad5cf-5dc6-4c38-8070-e3953d1d7b2d"
+                ],
+                "metaUuids": [
+                    "810096fd-cdbc-5a03-bf40-ed8cce1bb14d"
+                ]
+            },
+            "brandUuid": "4c7d3681-198a-576b-9eb5-66aad8732105",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/t/k/gy4m4b26bsk7sp3c7j2lvmvu",
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "c80f9649-6330-4895-984c-37d8eafca559",
+                "d3bcf441-2384-499b-8874-f70e29782f44",
+                "e3fad5cf-5dc6-4c38-8070-e3953d1d7b2d"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–22%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 22,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 17999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 22999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 230.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "230&nbsp;г&nbsp;• 782,57&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "cb4b27a7-6cbb-5d25-ba0b-f156db49a037",
+            "metaUuid": "e510b144-2a75-5dc2-b9f0-458722fdcda1",
+            "dateStart": 1693440000000,
+            "title": "Coyc COSTA CALIENTE Original Red Hot перечный оригинальный красный, 90 мл",
+            "normalizedName": "coyc costa caliente original red hot перечный оригинальный красный 90мл",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "metaUuids": [
+                    "e510b144-2a75-5dc2-b9f0-458722fdcda1"
+                ]
+            },
+            "brandUuid": "e7036882-b843-5545-9397-30cc5a8eea2d",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/i/y/qa4c5h3hoatd26ui2qdt5sfe",
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–31%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 31,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 15999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 22999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 90.0,
+            "quantityUnit": "мл",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "90&nbsp;мл&nbsp;• 1777,67&nbsp;₽/л"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "489a3df2-9648-58c9-8a5c-46a8d4ced832",
+            "metaUuid": "ba096d3b-47a5-52c0-92f8-d3a70a0b2618",
+            "dateStart": 1693440000000,
+            "title": "Соус томатный KUHNE Барбекю; Fire Dragon с острым перцем чили, 250 г",
+            "normalizedName": "соус томатный kuhne барбекю fire dragon с острым перцем чили 250г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "4ace3109-e787-4fc5-8df0-c5501e9a5a3f",
+                    "93403bec-0071-48ea-b6fc-8bb2d3059c7b"
+                ],
+                "metaUuids": [
+                    "ba096d3b-47a5-52c0-92f8-d3a70a0b2618"
+                ]
+            },
+            "brandUuid": "8bcf815b-c4a7-530b-bc0b-0c7e86cc6fbc",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/e/3/4igm5hlxm6spwqu7ezlrdl6y",
+            "rating": 5.0,
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "4ace3109-e787-4fc5-8df0-c5501e9a5a3f",
+                "93403bec-0071-48ea-b6fc-8bb2d3059c7b"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–21%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 21,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 23999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 29999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 250.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "250&nbsp;г&nbsp;• 959,96&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "35a2f8c2-df8b-54bf-9012-27fe409e11fa",
+            "metaUuid": "149593cb-9bfd-5829-80b2-6082764e324e",
+            "dateStart": 1693440000000,
+            "title": "Соус соевый SEN SOY Терияки, 220 мл",
+            "normalizedName": "соус соевый sen soy терияки 220мл",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "157420b7-0dcb-429f-b282-627672e7576e",
+                    "d83e088b-2e69-4a65-9a11-f32f94f0ccaa"
+                ],
+                "metaUuids": [
+                    "149593cb-9bfd-5829-80b2-6082764e324e"
+                ]
+            },
+            "brandUuid": "36dacced-c1c6-5bc7-9d15-25413604c32f",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/c/5/lkwilf7ay2xurvyfslbyqtoi",
+            "rating": 5.0,
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "157420b7-0dcb-429f-b282-627672e7576e",
+                "d83e088b-2e69-4a65-9a11-f32f94f0ccaa"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–22%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 22,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 8999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 11499
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 220.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "220&nbsp;г&nbsp;• 409,05&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "7500e923-ced5-52ef-98d3-3ffbb8afa104",
+            "metaUuid": "9fa7cb91-4ee5-5f25-a51f-e487b798e091",
+            "dateStart": 1693440000000,
+            "title": "Соус соевый PEARL RIVER BRIDGE слабосолёный, 300 мл",
+            "normalizedName": "соус соевый pearl river bridge слабосоленый 300мл",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "metaUuids": [
+                    "9fa7cb91-4ee5-5f25-a51f-e487b798e091"
+                ]
+            },
+            "brandUuid": "b6b2abe6-e34e-5703-9b59-5f130e8802d9",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/q/z/smrkic5kgivdpfdmwwa73j5i",
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–29%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 29,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 19999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 27999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 300.0,
+            "quantityUnit": "мл",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "300&nbsp;мл&nbsp;• 666,63&nbsp;₽/л"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "ab1769af-f5bb-51f3-a6f4-b7972dcd8b3b",
+            "metaUuid": "8075e538-e408-5e3a-9ad6-d9ef189c435f",
+            "dateStart": 1693440000000,
+            "title": "Аджика АМЦА Абхазская копчёная; классическая, 200 г",
+            "normalizedName": "аджика амца абхазская копченая классическая 200г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "25ac1ff3-d702-4581-ad67-94b27308afc0",
+                    "864d0b99-ce99-4a2b-b0b0-f1194ba80404"
+                ],
+                "metaUuids": [
+                    "8075e538-e408-5e3a-9ad6-d9ef189c435f"
+                ]
+            },
+            "brandUuid": "616dfd83-59e6-5c36-9153-f50987d060d1",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/d/5/nnmxe75tvwchyglx2wbck3cu",
+            "rating": 5.0,
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "25ac1ff3-d702-4581-ad67-94b27308afc0",
+                "864d0b99-ce99-4a2b-b0b0-f1194ba80404"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–21%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 21,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 19999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 24999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 200.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "200&nbsp;г&nbsp;• 999,95&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "f64403f4-997c-56e3-9654-d97b1317fd8e",
+            "metaUuid": "1eed7dc4-3649-5324-bdf0-7a6ba064bedf",
+            "dateStart": 1693440000000,
+            "title": "Coyc AROY-D Кисло-сладкий, 215 г",
+            "normalizedName": "coyc aroy d кисло сладкий 215г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "72f40231-ca28-4fff-9de0-41f47f841115"
+                ],
+                "metaUuids": [
+                    "1eed7dc4-3649-5324-bdf0-7a6ba064bedf"
+                ]
+            },
+            "brandUuid": "50fc25df-5a23-5c4e-a38d-1e502802b6a9",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/k/p/mvdy3mprwmifenzvewojo2xu",
+            "rating": 5.0,
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "72f40231-ca28-4fff-9de0-41f47f841115"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–23%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 23,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 13999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 17999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 215.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "215&nbsp;г&nbsp;• 651,12&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "3eb4609a-cac3-5212-bde1-b8dad3b75139",
+            "metaUuid": "1682c38e-6530-57a0-99dd-d2d6d7ce798e",
+            "dateStart": 1693440000000,
+            "title": "Coyc FILIPPO BERIO Organic classic pesto, 190 г",
+            "normalizedName": "coyc filippo berio organic classic pesto 190г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "1a002e5c-6020-4037-957c-34196446e551"
+                ],
+                "metaUuids": [
+                    "1682c38e-6530-57a0-99dd-d2d6d7ce798e"
+                ]
+            },
+            "brandUuid": "86005f79-a773-5005-b532-bce1ca7a49d9",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/v/l/k7oxsgtd6kxvm7fpgouvamfa",
+            "rating": 5.0,
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "1a002e5c-6020-4037-957c-34196446e551"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–17%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 17,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 28999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 34900
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 190.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "190&nbsp;г&nbsp;• 1526,26&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "619ca508-7d35-562a-9069-cda3944327db",
+            "metaUuid": "a6bbf139-d3bc-5d20-a6c2-afc208881bea",
+            "dateStart": 1693440000000,
+            "title": "Аджика ПИКАНТА Домашняя, 350 г",
+            "normalizedName": "аджика пиканта домашняя 350г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "metaUuids": [
+                    "a6bbf139-d3bc-5d20-a6c2-afc208881bea"
+                ]
+            },
+            "brandUuid": "b8590871-e6ef-5edb-9cc7-8ca3c7bbefac",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/4/b/ou56y7dwlpkyhn66373eysw4",
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–25%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 25,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 10999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 14500
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 350.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "350&nbsp;г&nbsp;• 314,26&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "01c78e31-d487-52ff-9840-bb112b2c290e",
+            "metaUuid": "dfc9a9b0-d82f-540a-8245-a94616509e69",
+            "dateStart": 1693440000000,
+            "title": "Соус МАРКЕТ Песто alla Genovese, 190 г",
+            "normalizedName": "соус маркет песто alla genovese 190г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "d37e40eb-43fe-456b-bc0b-c85b518daf6b"
+                ],
+                "metaUuids": [
+                    "dfc9a9b0-d82f-540a-8245-a94616509e69"
+                ]
+            },
+            "brandUuid": "23648307-b3c5-5c8f-a897-678a34a96fda",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/a/n/d73vulw62vcfzrspl2kms4wm",
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "d37e40eb-43fe-456b-bc0b-c85b518daf6b"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–21%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 21,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 18999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 23999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 190.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "190&nbsp;г&nbsp;• 999,95&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "5235b303-01b5-508b-8c9f-062d772df5ee",
+            "metaUuid": "9f1e62bd-3369-540a-b351-d7d2fa1ae5fb",
+            "dateStart": 1693440000000,
+            "title": "Coyc SANBONSAI соевый без глютена, 250 мл",
+            "normalizedName": "coyc sanbonsai соевый без глютена 250мл",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "2c042b75-a55b-46ac-94e7-05edde1afed5"
+                ],
+                "metaUuids": [
+                    "9f1e62bd-3369-540a-b351-d7d2fa1ae5fb"
+                ]
+            },
+            "brandUuid": "a34f42df-bf71-5207-9a53-9ed3899afe72",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/b/z/lbzxupquvtea2lg2lmc2tlcy",
+            "rating": 5.0,
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "2c042b75-a55b-46ac-94e7-05edde1afed5"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–21%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 21,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 7999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 9999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 250.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "250&nbsp;г&nbsp;• 319,96&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "3b84ead5-e870-525c-b7dc-01799ffff678",
+            "metaUuid": "276ad0d7-8302-5369-aa0b-4153567a979b",
+            "dateStart": 1693440000000,
+            "title": "Coyc UNI DAN томатный оригинальный Аррабиата; Для Болоньезе; С базиликом, 350 г",
+            "normalizedName": "coyc uni dan томатный оригинальный аррабиата для болоньезе с базиликом 350г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "9f1e755a-3e8a-4303-9cac-6dfba561f3f7"
+                ],
+                "metaUuids": [
+                    "276ad0d7-8302-5369-aa0b-4153567a979b"
+                ]
+            },
+            "brandUuid": "81aeb4b9-6e6e-55d6-802a-2834b231e24c",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/y/p/uvumzs233cwyd4xrprehwcbe",
+            "rating": 5.0,
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "9f1e755a-3e8a-4303-9cac-6dfba561f3f7"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–21%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 21,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 9999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 12500
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 350.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "350&nbsp;г&nbsp;• 285,69&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "33809f6c-f1f8-5867-9a2f-78eb4b22b13c",
+            "metaUuid": "a69003f5-5b04-5ee8-8066-4f32c06ca814",
+            "dateStart": 1693440000000,
+            "title": "Coyc UNI DAN брусничный; клюквенный для вторых блюд, 270 г",
+            "normalizedName": "coyc uni dan брусничный клюквенный для вторых блюд 270г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "ace1c76a-d535-4304-8f8c-cc3105495813"
+                ],
+                "metaUuids": [
+                    "a69003f5-5b04-5ee8-8066-4f32c06ca814"
+                ]
+            },
+            "brandUuid": "81aeb4b9-6e6e-55d6-802a-2834b231e24c",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/2/7/3owncoe2xdn5gncpf6onhy5e",
+            "rating": 4.5,
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "ace1c76a-d535-4304-8f8c-cc3105495813"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–28%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 28,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 11999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 16499
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 270.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "270&nbsp;г&nbsp;• 444,41&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "d5792899-fd12-5d90-aee4-3bf710e79ccf",
+            "metaUuid": "6fa6c911-84c3-5711-b7dd-40e9f270ac4f",
+            "dateStart": 1693440000000,
+            "title": "Coyc MIVIMEX Кавказский особо острый, 200 г",
+            "normalizedName": "coyc mivimex кавказский особо острый 200г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "003c5859-2e7c-4093-b743-75837e0c8a52"
+                ],
+                "metaUuids": [
+                    "6fa6c911-84c3-5711-b7dd-40e9f270ac4f"
+                ]
+            },
+            "brandUuid": "3ead0c1d-0fe5-515e-99a9-cf0e1b69dc87",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/5/s/xqiq646yyvffhdgocz6wt6vq",
+            "rating": 3.0,
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "003c5859-2e7c-4093-b743-75837e0c8a52"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–22%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 22,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 4999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 6399
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 200.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "200&nbsp;г&nbsp;• 249,95&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "5d98ef78-9c70-5dda-87ef-a692eb1e7a4c",
+            "metaUuid": "c74aafa4-a45a-5ef3-8e7a-77f2d2ce1cf8",
+            "dateStart": 1693440000000,
+            "title": "Coyc AROY-D Tom Yum Paste кисло-сладкий, 50 г",
+            "normalizedName": "coyc aroy d tom yum paste кисло сладкий 50г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "metaUuids": [
+                    "c74aafa4-a45a-5ef3-8e7a-77f2d2ce1cf8"
+                ]
+            },
+            "brandUuid": "50fc25df-5a23-5c4e-a38d-1e502802b6a9",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/h/f/ft2lfmnauslf2gmhsysgf5re",
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–29%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 29,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 6999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 9799
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 50.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "50&nbsp;г&nbsp;• 1399,80&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "904923fc-44a8-5b79-9495-741a6ca21b6f",
+            "metaUuid": "e786e86c-0b7b-5120-a3a4-61ab70a6eedb",
+            "dateStart": 1693440000000,
+            "title": "Coyc CASA KUBANA Песто с зелёным базиликом, 170 г",
+            "normalizedName": "coyc casa kubana песто с зеленым базиликом 170г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "3103a378-ea92-4fea-9dd6-85e75241ebc0"
+                ],
+                "metaUuids": [
+                    "e786e86c-0b7b-5120-a3a4-61ab70a6eedb"
+                ]
+            },
+            "brandUuid": "a2d2f10e-db42-58f8-91fd-4cbf558d21fb",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/t/i/4i2od5w6qppiinzsidmhjule",
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "3103a378-ea92-4fea-9dd6-85e75241ebc0"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–24%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 24,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 22999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 29999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 170.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "170&nbsp;г&nbsp;• 1352,88&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "f47f0a69-61c5-5bfd-8fa0-6f7dfa46c46b",
+            "metaUuid": "faf20671-4bbb-52df-89af-2c4e0ce99c88",
+            "dateStart": 1693440000000,
+            "title": "Coyc CASA KUBANA Песто с томатами, 170 г",
+            "normalizedName": "coyc casa kubana песто с томатами 170г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "metaUuids": [
+                    "faf20671-4bbb-52df-89af-2c4e0ce99c88"
+                ]
+            },
+            "brandUuid": "a2d2f10e-db42-58f8-91fd-4cbf558d21fb",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/n/r/au4grjwqzm4v4phbuy5rsijq",
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–20%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 20,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 22999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 28699
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 170.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "170&nbsp;г&nbsp;• 1352,88&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "6e998c5d-2aeb-57fc-b0bc-e9ba1e9a4441",
+            "metaUuid": "ff41af03-f770-5f07-ab19-e330e184970f",
+            "dateStart": 1693440000000,
+            "title": "Coyc KUHNE Цезарь салатный классический, 250 мл",
+            "normalizedName": "coyc kuhne цезарь салатный классический 250мл",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "skuUuids": [
+                    "f9e40f68-9459-4c28-a2c4-2405baf40df7"
+                ],
+                "metaUuids": [
+                    "ff41af03-f770-5f07-ab19-e330e184970f"
+                ]
+            },
+            "brandUuid": "8bcf815b-c4a7-530b-bc0b-0c7e86cc6fbc",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/w/2/7spnvuh5jg5unkxsnyn5ihh4",
+            "rating": 4.5,
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "skuUuids": [
+                "f9e40f68-9459-4c28-a2c4-2405baf40df7"
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–16%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 16,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 21999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 25999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 250.0,
+            "quantityUnit": "мл",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "250&nbsp;мл&nbsp;• 879,96&nbsp;₽/л"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "6cad7a55-612f-5e84-a92b-67cd0909fe10",
+            "metaUuid": "ad5d0fc0-0fb1-5be0-b3a2-889efb8c8cd4",
+            "dateStart": 1693440000000,
+            "title": "Соус СТЕБЕЛЬ БАМБУКА Наршараб гранатовый, 380 г",
+            "normalizedName": "соус стебель бамбука наршараб гранатовый 380г",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "metaUuids": [
+                    "ad5d0fc0-0fb1-5be0-b3a2-889efb8c8cd4"
+                ]
+            },
+            "brandUuid": "6240f6af-60e6-5ff8-9b58-249fa1fa9b4d",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/6/i/wsr3tir44nunyhcimofnfq5m",
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–11%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 11,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 12999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 14499
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 380.0,
+            "quantityUnit": "г",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "380&nbsp;г&nbsp;• 342,08&nbsp;₽/кг"
+        },
+        {
+            "type": "offer",
+            "itemType": "offer",
+            "view": "mko",
+            "uuid": "d03b567a-e289-5e5b-a1ce-6d13497bf5c8",
+            "metaUuid": "4167a83a-1cd1-5bb0-b167-e53576657c6b",
+            "dateStart": 1693440000000,
+            "title": "Соус бальзамический MONARI FEDERZONI Glassa all Aceto Balsamico di Modena, 300 мл",
+            "normalizedName": "соус бальзамический monari federzoni glassa all aceto balsamico di modena 300мл",
+            "features": {
+                "adultContent": false
+            },
+            "onlineRetailer": false,
+            "partner": {
+                "uuid": "94d98417-42c3-11e6-9419-52540010b608",
+                "imageUrl": "https://leonardo.edadeal.io/dyn/re/retailers/images/icons/sq/a20f46b5662b4825a29d52b897624916.png",
+                "name": "Перекрёсток",
+                "slug": "perekrestok",
+                "primaryColor": "24572E"
+            },
+            "structUuids": {
+                "metaUuids": [
+                    "4167a83a-1cd1-5bb0-b167-e53576657c6b"
+                ]
+            },
+            "brandUuid": "fe16f1de-4873-50b8-8200-deff87b0fca7",
+            "dateEnd": 1695772800000,
+            "imageUrl": "https://leonardo.edadeal.io/dyn/cr/l/offers/mnkcmma/i/g/icbme2y5hak/p/p/oyrak2e4wqrhc7kdnpedkqbq",
+            "segments": [
+                "Продукты",
+                "Майонез и соусы",
+                "Соусы"
+            ],
+            "segmentUuids": [
+                "3b31ab10-6311-11e6-849f-52540010b608",
+                "3b31cb57-6311-11e6-849f-52540010b608",
+                "3b31ce28-6311-11e6-849f-52540010b608"
+            ],
+            "fullSegments": [
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/level1/96/food.png",
+                    "id": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 1,
+                    "ordernum": 10,
+                    "slug": "food",
+                    "title": "Продукты"
+                },
+                {
+                    "iconUrl": "https://leonardo.edadeal.io/dyn/re/segments/280/sauces.png",
+                    "id": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 2,
+                    "ordernum": 570,
+                    "parentId": "3b31ab10-6311-11e6-849f-52540010b608",
+                    "slug": "mayonnaise-and-sauces",
+                    "title": "Майонез и соусы"
+                },
+                {
+                    "id": "3b31ce28-6311-11e6-849f-52540010b608",
+                    "isActive": true,
+                    "level": 3,
+                    "ordernum": 620,
+                    "parentId": "3b31cb57-6311-11e6-849f-52540010b608",
+                    "slug": "sauces",
+                    "title": "Соусы"
+                }
+            ],
+            "discount": {
+                "tpl": "discountLabel",
+                "params": {
+                    "value": "–13%",
+                    "type": "value"
+                }
+            },
+            "discountPercent": 13,
+            "discountUnit": "%",
+            "priceData": {
+                "new": {
+                    "type": "value",
+                    "value": 28999
+                },
+                "old": {
+                    "type": "value",
+                    "value": 32999
+                },
+                "meta": {
+                    "currency": "₽",
+                    "currencyPosition": "after"
+                }
+            },
+            "quantity": 300.0,
+            "quantityUnit": "мл",
+            "rankedLabels": {
+                "required": [],
+                "optional": []
+            },
+            "value": "300&nbsp;мл&nbsp;• 966,63&nbsp;₽/л"
+        }
+    ]
+}
