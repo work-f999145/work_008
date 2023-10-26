@@ -12,6 +12,7 @@ from pathlib import Path
 from datetime import datetime
 from pytz import timezone
 from itertools import chain
+from queue import Queue
 from pandarallel import pandarallel
 
 tqdm.pandas()
@@ -19,10 +20,7 @@ requests.packages.urllib3.disable_warnings()
 pandarallel.initialize(verbose=0)
 
 
-seg_df = pd.read_csv('data/segments.zip')
-ret_df = pd.read_csv('data/retailers.zip')
-loc_df = pd.read_csv('data/located_list.zip')
-seg_id_df = pd.read_csv('data/segments_id.zip')[['uuid', 'name']].drop_duplicates(ignore_index=True)
+
 
 
 
@@ -65,8 +63,22 @@ def get_data(pool1_input: tuple[tqdm, int, tuple[int, str]]):
     
     def get_response(url, params, headers):
         for _ in range(5):
+            if not q.empty():
+                try:
+                    tmp = q.get_nowait()
+                except Exception:
+                    proxy = False
+                else:
+                    q.put(tmp)
+                    proxy = True
+            else:
+                proxy = False
+                
             try:
-                respons = requests.get(url, params=params, headers=headers, timeout=(10, 30), verify=False)
+                if proxy:
+                    respons = requests.get(url, params=params, headers=headers, proxies=tmp['proxies'], timeout=(10, 30), verify=False)
+                else:
+                    respons = requests.get(url, params=params, headers=headers, timeout=(10, 30), verify=False)
             except ConnectTimeout:
                 time_sleep(1)
                 continue
@@ -89,12 +101,12 @@ def get_data(pool1_input: tuple[tqdm, int, tuple[int, str]]):
                 except JSONDecodeError:
                     return None
         else:
-            return None    
+            return None
 
 
     
     def get_su2_su3(pool2_input: tuple):
-        global seg_df
+        global seg_df, seg_df
         
         url, params, headers, su2 = pool2_input
         params['segmentUuid'] = [su2]
@@ -149,7 +161,7 @@ def get_data(pool1_input: tuple[tqdm, int, tuple[int, str]]):
                 'segmentUuid': []
              }
 
-    # for su1 in tqdm(seg_df['uuid'].unique()[:], desc=f'{item.sity} / {item.market}', leave=False):
+
     for su1 in seg_df['uuid'].unique()[:]:
         params['segmentUuid'] = [su1]
         
@@ -166,7 +178,8 @@ def get_data(pool1_input: tuple[tqdm, int, tuple[int, str]]):
             if not su2_list or (len_sku_list>550):
                 su2_list = seg_df[seg_df['uuid'] == su1]['uuid level 02'].unique()
             
-            # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
             with ThreadPool(streams) as pool2:
                 su2_len = len(su2_list)
                 input_list = list(zip([url]*su2_len, [params]*su2_len, [headers]*su2_len, su2_list))
@@ -183,17 +196,23 @@ def get_data(pool1_input: tuple[tqdm, int, tuple[int, str]]):
     pbar.update(1)
     return (item, out_list)
 
-def run_get_price(list_input, streams1:int=4, streams2:int=4):
-    # Первый нюанс!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    # Функция деления на потоки.
-    # где cores - это количество потоков
+
+
+
+
+
+def run_get_price(list_input, streams1:int=8, streams2:int=8):
     with tqdm(total=len(list_input), desc='Download', leave=False) as pbar:
         list_input_len = len(list_input)
         list_to_pool = list(zip([pbar]*list_input_len, [streams2]*list_input_len, list_input))
-        # with Pool(streams1) as pool1:
         with ThreadPool(streams1) as pool1:
             work_return = pool1.map(get_data, list_to_pool)
     return work_return
+
+
+
+
+
 
 
 def convert_data_to_df(input_list: list, seg_id_df) -> pd.DataFrame:
@@ -239,9 +258,7 @@ def convert_data_to_df(input_list: list, seg_id_df) -> pd.DataFrame:
     tmp_df = tmp_df.explode('tmp', ignore_index=True)
     tmp_df[['uuid', 'tmp']] = tmp_df['tmp'].apply(lambda x: pd.Series(x))
     tmp_df = tmp_df.explode('tmp', ignore_index=True)
-    # Второй нюанс!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    # Для ускорения работы обработки данных использую паралельное вычисление,
-    # Закоментирован вариант без паралельной обработки.
+
     # tmp_df = pd.concat((tmp_df, tmp_df['tmp'].apply(convert_to_df)), axis=1)
     convert_data_before_convert = int(time()) - start
     
@@ -317,50 +334,56 @@ def convert_data_to_df(input_list: list, seg_id_df) -> pd.DataFrame:
     # return tmp_df
     return (tmp_df, time_df)
 
-def main():
-    test_list = []
-    for i in [2,4,6,8,10,12,14,16,26,32,64,96,128]:
-        for j in [2,4,6,8,10,12,14,16,26,32,64,96,128]:    
-            # start_programm = datetime.strftime(datetime.now(timezone('Europe/Moscow')), '%Y-%b-%d %H:%M:%S')
-            start_programm = int(time())
-            
-            
-            control_time = list()
 
-            frame_list = separation_frame(ret_df, 2)[:1]
-            with tqdm(total=len(frame_list), desc='Total') as pbar:
-                for index, df in enumerate(frame_list):
-                    
-                    # start = int(time())
-                    out = run_get_price(list(df.iterrows()), streams1=i, streams2=j)
-                    # get_price_time = int(time()) - start
-                    
-                    # start = int(time())
-                    # out, time_df = convert_data_to_df(out, seg_id_df)
-                    # convert_data_time = int(time()) - start
-                    
-                    # start = int(time())
-                    # _save_df_to_zip(out, f'result {index:04d}')
-                    # save_time = int(time()) - start
-                    
-                    # tmp_time_series = pd.Series([get_price_time, convert_data_time, save_time], index=['get_price_time', 'convert_data_time', 'save_time'])
-                    
-                    # control_time.append(pd.concat((tmp_time_series, time_df)))
-                    pbar.update(1)
+
+
+
+
+def main():
+    global seg_df, ret_df, loc_df, seg_id_df, q
+    from config import proxies_list
+    q = Queue()
+    for elem in proxies_list:
+        q.put(elem)
+    
+    seg_df = pd.read_csv('data/segments.zip')
+    ret_df = pd.read_csv('data/retailers.zip')
+    loc_df = pd.read_csv('data/located_list.zip')
+    seg_id_df = pd.read_csv('data/segments_id.zip')[['uuid', 'name']].drop_duplicates(ignore_index=True)
+    
+    start_programm = int(time())
+    control_time = list()
+
+    frame_list = separation_frame(ret_df, 3)[:1]
+    with tqdm(total=len(frame_list), desc='Total') as pbar:
+        for index, df in enumerate(frame_list):
             
-            # control_time = pd.DataFrame(control_time)
-            # control_time['sum'] = control_time['get_price_time'] + control_time['convert_data_time'] + control_time['save_time']
-            # control_time['get_price_time_d'] = round(control_time['get_price_time']/control_time['sum']*100).astype('UInt8')
-            # control_time['convert_data_time_d'] = round(control_time['convert_data_time']/control_time['sum']*100).astype('UInt8')
-            # control_time['save_time_d'] = round(control_time['save_time']/control_time['sum']*100).astype('UInt8')
-            # print(control_time)
+            start = int(time())
+            out = run_get_price(list(df.iterrows()), streams1=50, streams2=30)
+            get_price_time = int(time()) - start
             
-            end_programm = int(time()) - start_programm
-            test_list.append(pd.Series([i,j,end_programm], index=['streams1', 'streams2', 'time']))
+            start = int(time())
+            out, time_df = convert_data_to_df(out, seg_id_df)
+            convert_data_time = int(time()) - start
+            
+            start = int(time())
+            _save_df_to_zip(out, f'result {index:04d}')
+            save_time = int(time()) - start
+            
+            tmp_time_series = pd.Series([get_price_time, convert_data_time, save_time], index=['get_price_time', 'convert_data_time', 'save_time'])
+            
+            control_time.append(pd.concat((tmp_time_series, time_df)))
+            pbar.update(1)
     
-    control_time = pd.DataFrame(test_list)
-    control_time.to_parquet('data/control_time_parquet.gzip', engine='pyarrow', compression='gzip')    
+    control_time = pd.DataFrame(control_time)
+    control_time['sum'] = control_time['get_price_time'] + control_time['convert_data_time'] + control_time['save_time']
+    control_time['get_price_time_d'] = round(control_time['get_price_time']/control_time['sum']*100).astype('UInt8')
+    control_time['convert_data_time_d'] = round(control_time['convert_data_time']/control_time['sum']*100).astype('UInt8')
+    control_time['save_time_d'] = round(control_time['save_time']/control_time['sum']*100).astype('UInt8')
+    control_time.to_parquet('data/control_time_parquet.gzip', engine='pyarrow', compression='gzip')
     
-    
+    end_programm = int(time()) - start_programm
+    print(f'Время исполнения программы: {end_programm}')
+        
 if __name__ == '__main__':
     main()
